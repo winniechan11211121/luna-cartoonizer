@@ -1,0 +1,9 @@
+name: luna-style
+description: Generate illustrations in Luna's custom style
+input_schema:
+  prompt:
+    type: string
+    default: "A baby in a bathtub with rubber ducks"
+    description: "What to draw"
+
+predict: predict.py:predict
