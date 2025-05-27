@@ -1,0 +1,16 @@
+build:
+  python_version: "3.10"
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "libglib2.0-0"
+  python_packages:
+    - torch
+    - torchvision
+    - diffusers
+    - transformers
+    - accelerate
+    - safetensors
+    - pillow
+    - numpy
+
+predict: "predict.py:Predictor"
